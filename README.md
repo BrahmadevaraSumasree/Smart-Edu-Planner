@@ -43,9 +43,13 @@ The application includes interactive progress visualizations such as:
          Task completion overview
          Weekly study trend analysis
          
-## 🌐 Blog Link 
+## 🌐 Live Demo 
+https://brahmadevarasumasree.github.io/Smart-Edu-Planner/
+         
+## Blog Link 
 [https://smart-study-planner-lemon.vercel.app/
 ](https://w3schools-brahmadevarasumasree-1039.blogspot.com/2026/03/building-smart-edu-planner-using-html.html)
+
 ## 📌 How to Run
 Simply open `index.html` in any modern web browser.
 
