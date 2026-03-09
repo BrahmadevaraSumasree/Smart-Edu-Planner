@@ -3,6 +3,13 @@
 Smart Edu Planner is a web-based study management application built using HTML, CSS, and Vanilla JavaScript.
 It helps students organize subjects, plan schedules, manage tasks, and track study progress efficiently through an intuitive dashboard.
 
+#🚀 Live Project
+##🔗 Live Demo:
+https://brahmadevarasumasree.github.io/Smart-Edu-Planner/
+
+##📝Blog:
+https://w3schools-brahmadevarasumasree-1039.blogspot.com/2026/03/building-smart-edu-planner-using-html.html
+
 ## 🚀 Features
 📊 Dashboard Overview
 View total subjects, pending tasks, study time, and progress in one place.
@@ -31,11 +38,11 @@ Download planner data as a backup file.
 🗑 Reset Data Option
 Clear all saved planner data instantly.
 
-## 🛠️ Tech Stack
-- HTML5: Structure of the application
-- CSS3: Styling, layout, and responsive design
-- Vanilla JavaScript: Functionality and interactivity  
-- LocalStorage: Persistent data storage in the browser 
+## 🛠️ Languages & Technologies
+![HTML](https://img.shields.io/badge/HTML-Structure-orange?style=for-the-badge&logo=html5)
+![CSS](https://img.shields.io/badge/CSS-Styling-blue?style=for-the-badge&logo=css3)
+![JavaScript](https://img.shields.io/badge/JavaScript-Functionality-yellow?style=for-the-badge&logo=javascript)
+
 
 ## 📊 Analytics
 The application includes interactive progress visualizations such as:
@@ -43,13 +50,6 @@ The application includes interactive progress visualizations such as:
          Task completion overview
          Weekly study trend analysis
          
-## 🌐 Live Demo 
-https://brahmadevarasumasree.github.io/Smart-Edu-Planner/
-         
-## Blog Link 
-[https://smart-study-planner-lemon.vercel.app/
-](https://w3schools-brahmadevarasumasree-1039.blogspot.com/2026/03/building-smart-edu-planner-using-html.html)
-
 ## 📌 How to Run
 Simply open `index.html` in any modern web browser.
 
