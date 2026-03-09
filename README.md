@@ -1,1 +1,73 @@
-# Smart-Edu-Planner
+Smart Edu Planner 📘
+
+Smart Edu Planner is a web-based study management application built using HTML, CSS, and Vanilla JavaScript.
+It helps students organize subjects, plan schedules, manage tasks, and track study progress efficiently through an intuitive dashboard.
+
+🚀 Features
+
+📊 Dashboard Overview
+View total subjects, pending tasks, study time, and progress in one place.
+
+📚 Subject Management
+Add subjects with priority levels and weekly study hours.
+
+🗓 Schedule Planner
+Plan study schedules for different days and time slots.
+
+✅ Task Manager
+Manage assignments, exams, and revision tasks with deadlines.
+
+📈 Progress Analytics
+Visual charts showing subject distribution and task trends.
+
+🌙 Dark / Light Mode
+Toggle between themes for comfortable viewing.
+
+💾 Local Storage Support
+All data is saved in the browser using LocalStorage.
+
+📤 Export Data Option
+Download planner data as a backup file.
+
+🗑 Reset Data Option
+Clear all saved planner data instantly.
+
+🛠 Tech Stack
+
+HTML5 – Structure of the application
+
+CSS3 – Styling, layout, and responsive design
+
+Vanilla JavaScript – Functionality and interactivity
+
+LocalStorage – Persistent data storage in the browser
+
+📊 Analytics
+
+The application includes interactive progress visualizations such as:
+
+Subject study distribution chart
+
+Task completion overview
+
+Weekly study trend analysis
+
+All charts are implemented using JavaScript without heavy frameworks, focusing on lightweight performance.
+
+🌐 Live Demo
+
+https://smart-study-planner-lemon.vercel.app/
+
+📌 How to Run
+
+Download or clone the project.
+
+Open the project folder.
+
+Run the application by opening:
+
+index.html
+
+in any modern web browser.
+
+No additional setup or installation is required.
