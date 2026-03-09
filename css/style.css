@@ -1,0 +1,329 @@
+/* ================= ROOT VARIABLES ================= */
+:root {
+    --primary: #2563eb;
+    --primary-dark: #1e40af;
+    --accent: #22c55e;
+    --danger: #dc2626;
+
+    --bg: #f4f6f9;
+    --bg-soft: rgba(255, 255, 255, 0.9);
+    --text: #1f2937;
+    --muted: #6b7280;
+
+    --glass: rgba(255, 255, 255, 0.65);
+    --blur: blur(14px);
+}
+
+/* ================= RESET ================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", system-ui, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #eef2ff, #f8fafc);
+    color: var(--text);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    transition: background 0.4s, color 0.4s;
+}
+
+/* ================= HEADER ================= */
+
+.header {
+    background: linear-gradient(135deg, #1e3a8a, #2563eb, #3b82f6);
+    color: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.header-content {
+    max-width: 900px;
+    margin: auto;
+}
+
+.app-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-size: 0.95rem;
+    opacity: 0.85;
+}
+
+.streak-box {
+    margin-top: 0.8rem;
+    font-size: 0.9rem;
+    background: rgba(255,255,255,0.15);
+    padding: 0.35rem 0.8rem;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+/* ================= NAVBAR ================= */
+
+.navbar {
+    background: #020617;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    position: relative;
+}
+
+.nav-logo {
+    color: #fff;
+    font-weight: 700;
+}
+
+.nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-item {
+    padding: 1rem;
+    color: #ffffff;
+    cursor: pointer;
+    position: relative;
+}
+
+.nav-item:hover {
+    background: rgba(255,255,255,0.12);
+    border-radius: 6px;
+}
+
+/* ================= MAIN ================= */
+
+.container {
+    flex: 1;
+    padding: 1.5rem;
+}
+
+.main-layout {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* ================= SECTIONS ================= */
+
+.section {
+    display: none;
+}
+
+.section.active {
+    display: block;
+}
+
+.section-header {
+    margin-bottom: 1rem;
+}
+
+.section-header p {
+    color: var(--muted);
+}
+
+/* ================= DASHBOARD ================= */
+
+.dashboard-cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.2rem;
+}
+
+.dashboard-grid {
+    margin-top: 1.8rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.2rem;
+}
+
+/* ================= CARDS ================= */
+
+.card {
+    background: var(--glass);
+    backdrop-filter: var(--blur);
+    padding: 1.3rem;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.big-number {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* ================= LAYOUTS ================= */
+
+.split-layout {
+    display: grid;
+    grid-template-columns: 360px 1fr;
+    gap: 1.5rem;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    gap: 1.5rem;
+}
+
+/* ================= SCHEDULE ================= */
+
+#schedule .grid-layout {
+    grid-template-columns: 1fr 2fr;
+}
+
+#scheduleList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(260px,1fr));
+    gap: 1rem;
+}
+
+/* ================= FORMS ================= */
+
+.form-stack {
+    display: grid;
+    gap: 0.7rem;
+}
+
+.time-group {
+    display: flex;
+    gap: 0.5rem;
+}
+
+input,select,button {
+    padding: 0.7rem;
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+}
+
+/* ================= BUTTONS ================= */
+
+button {
+    background: var(--primary);
+    color: #fff;
+    cursor: pointer;
+}
+
+/* ================= FOOTER ================= */
+
+.footer {
+    text-align: center;
+    padding: 0.9rem;
+    background: #020617;
+    color: #ffffff;
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width:768px){
+
+.nav-toggle{
+display:block;
+}
+
+.nav-links{
+display:none;
+flex-direction:column;
+position:absolute;
+top:60px;
+left:0;
+width:100%;
+background:#020617;
+}
+
+.nav-links.show{
+display:flex;
+}
+
+.nav-item{
+width:100%;
+text-align:center;
+border-bottom:1px solid rgba(255,255,255,0.1);
+}
+
+/* dashboard */
+
+.dashboard-cards{
+grid-template-columns:1fr;
+}
+
+.dashboard-grid{
+grid-template-columns:1fr;
+}
+
+/* forms */
+
+.split-layout{
+grid-template-columns:1fr;
+}
+
+.time-group{
+flex-direction:column;
+}
+
+/* schedule */
+
+#schedule .grid-layout{
+grid-template-columns:1fr;
+}
+
+#scheduleList{
+grid-template-columns:1fr;
+}
+
+}
+
+/* ================= DARK MODE ================= */
+
+body.dark{
+background:#020617;
+color:#e5e7eb;
+}
+
+body.dark .card{
+background:rgba(15,23,42,0.9);
+border:1px solid #1e293b;
+}
+
+body.dark input,
+body.dark select{
+background:#020617;
+color:#fff;
+border-color:#334155;
+}
+
+body.dark .navbar{
+background:#020617;
+}
+
+body.dark .footer{
+background:#020617;
+}
+
+body.dark .section-header p{
+color:#94a3b8;
+}
