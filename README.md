@@ -4,10 +4,10 @@ Smart Edu Planner is a web-based study management application built using **HTML
 It helps students organize subjects, plan schedules, manage tasks, and track study progress efficiently through an intuitive dashboard.
 
 ## 🚀 Project Links
- **🔗 Live Demo:** 
+ **🔗 Live Demo:**   
 https://brahmadevarasumasree.github.io/Smart-Edu-Planner/
 
-**📝Blog:** 
+**📝Blog:**  
 https://w3schools-brahmadevarasumasree-1039.blogspot.com/2026/03/building-smart-edu-planner-using-html.html
 
 ## 🚀 Features
